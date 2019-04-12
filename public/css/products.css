@@ -1,0 +1,45 @@
+.hero {
+    background-image: url("../img/products-hero.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+.products-hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.hero-cover {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.search-form {
+    height: 300px;
+}
+.products {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.products img {
+    margin-top: 40px;
+}
+.products-button {
+    color: white;
+    background-color: #ffcd00;
+    padding: 10px;
+}
+.products-button:hover {
+    background-color: #464a4c;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .search-form {
+        height: 150px;
+    }
+}
