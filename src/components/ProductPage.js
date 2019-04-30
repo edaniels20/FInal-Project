@@ -59,6 +59,13 @@ class ProductPage extends Component {
                             {products}
                         </div>
                     </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <img className="img-responsive" src="./img/map.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </>
         )

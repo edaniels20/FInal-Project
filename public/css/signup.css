@@ -1,0 +1,35 @@
+.signup-page-wrapper {
+    background-image: url("../img/hero03.jpg");
+    background-size: cover;
+}
+.signup-form-wrapper {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgb(233, 233, 233);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+.signup-form-wrapper input{
+    width: 80%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+.gender-wrapper {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.gender-wrapper input {
+    height: 20px;
+}
+.gender-wrapper label {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button-primary.button-signup {
+    width: 80%;
+    color: white;
+}

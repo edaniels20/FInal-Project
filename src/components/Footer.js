@@ -6,7 +6,7 @@ function Footer() {
             <div className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-4 logo-footer">
+                        <div className="col-sm-3 logo-footer">
                             <h2>Lux <b>Rental</b></h2>
                             <ul>
                                 <li><a href="#Link">Home</a></li>
@@ -15,17 +15,11 @@ function Footer() {
                                 <li><a href="#Link">Contact</a></li>
                             </ul>
                         </div>
-                        <div className="col-sm-4">
-                            <div className="social">
+                        <div className="col-sm-3">
+                            <div className="contact">
                                 <h2>Contact</h2>
                                 <p>601-555-5555</p>
                                 <p>support@luxrental.com</p>
-                                <p>Follow us on Social Media</p>
-                                <ul>
-                                    <li><a href="#Link"><i className="fab fa-facebook"></i></a></li>
-                                    <li><a href="#Link"><i className="fab fa-twitter-square"></i></a></li>
-                                    <li><a href="#Link"><i className="fab fa-linkedin"></i> </a></li>
-                                </ul>
                                 <label>Subscribe to our news letter</label>
                                 <form className="news-letter-form">
                                     <input type="text" placeholder="Email" />
@@ -33,7 +27,16 @@ function Footer() {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-sm-4 testimonial">
+                        <div className="col-sm-3 social">
+                            <h2>Social</h2>
+                            <ul>
+                                <li><a href="#Link"><i className="fab fa-facebook"></i></a></li>
+                                <li><a href="#Link"><i className="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#Link"><i className="fab fa-linkedin"></i> </a></li>
+                            </ul>
+                            <img className="img-responsive" src="./img/map.png" alt=""/>
+                        </div>
+                        <div className="col-sm-3 testimonial">
                             <h2>Testimonial</h2>
                             <ul>
                                 <li>

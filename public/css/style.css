@@ -229,7 +229,7 @@ a:hover {
 }
 .logo-footer a {
     color: white;
-    font-size: 30px;
+    font-size: 16px;
 }
 .logo-footer h2 {
     font-style: italic;
@@ -294,7 +294,7 @@ a:hover {
     display: none;
 }
 .social {
-    text-align: center;
+    /* text-align: center; */
 }
 .social form {
     margin: auto;
@@ -306,10 +306,11 @@ a:hover {
 }
 .social li {
     display: inline;
+    margin-right: 51px;
 }
 .social i {
     color: #ffcd00;
-    font-size: 40px;
+    font-size: 60px;
     border-radius: 5px;
 }
 .social .search-form-button {
